@@ -16,13 +16,12 @@ const App = () => {
     });
 
     const onLeave = (origin, destination, direction) => {
-        console.log('onLeave',{origin, destination, direction})
         setIsLast(destination.isLast);
     };
 
     return (
         <div className="App">
-            <Menu logo={data?.data[0].logo} logoUrl={data?.data[0].logoUrl} discoverTxt={data?.data[0].discoverTxt} discoverUrl={data?.data[0].discoverUrl} />
+            <Menu logo={data?.data[0].logo} logoUrl={data?.data[0].logoUrl} discoverTxt={data?.data[0].discoverTxt} discoverUrl={data?.data[0].discoverUrl} isLast={isLast}/>
             {data && (
                 <ReactFullpage
                     licenseKey={"YOUR_KEY_HERE"}

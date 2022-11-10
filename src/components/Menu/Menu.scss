@@ -10,15 +10,35 @@
     a {
         text-decoration: none;
         color: #404040;
+        transition: 0.5s all ease-in-out;
     }
     &__logo {
         font-size: 1.5rem;
         border: 1px solid #404040;
         padding: 0.5rem 1rem;
         margin: 1rem;
+        transition: 0.5s all ease-in-out;
+        &:hover {
+            border: 1px solid red;
+            a {
+                color: red;
+            }
+        }
     }
     &__discover {
         font-size: 1.2rem;
         margin: 1rem;
+        transition: 0.5s all ease-in-out;
+        &:hover {
+            a {
+                color: red;
+            }
+        }
+    }
+    .txt-white{
+        color: white;
+    }
+    .border-white{
+        border-color: white;
     }
 }
