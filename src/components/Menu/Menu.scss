@@ -19,7 +19,7 @@
         margin: 1rem;
         transition: 0.5s all ease-in-out;
         &:hover {
-            border: 1px solid red;
+            border-color: red;
             a {
                 color: red;
             }
@@ -35,10 +35,13 @@
             }
         }
     }
-    .txt-white{
+    .txt-white {
         color: white;
     }
-    .border-white{
+    .border-white {
         border-color: white;
+        &:hover {
+            border-color: red;
+        }
     }
 }
