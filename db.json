@@ -1,0 +1,41 @@
+{
+    "list":[
+    {
+        "logo": "LOGO",
+        "logoUrl": "https://www.google.com/",
+        "discoverTxt": "DISCOVER MORE",
+        "discoverUrl": "https://mail.google.com/",
+        "slides": [
+            {
+                "videoUrl": "http://www.w3schools.com/html/mov_bbb.mp4",
+                "imgBig": "",
+                "imgMed": "",
+                "imgSml": "",
+                "imgAlt": "",
+                "header": "LOREM IPSUM DOLOR",
+                "content": {
+                    "txt": [
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros."
+                    ]
+                }
+            },
+            {
+                "videoUrl": "",
+                "imgBig": "img/img-1920x1200.jpg",
+                "imgMed": "img/img-1280x800.jpg",
+                "imgSml": "img/img-800x368.jpg",
+                "imgAlt": "This is image alt text",
+                "header": "DONEC NEC JUSTO",
+                "content": {
+                    "txt": [
+                        "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.",
+                        "Aenean dignissim pellentesque felis sed egestas, ante et vulputate volutpat.",
+                        "Eros pede semper est, vitae luctus metus libero eu augue.",
+                        "Morbi purus libero, faucibus adipiscing, commodo quis."
+                    ]
+                }
+            }
+        ]
+    }
+]
+}
